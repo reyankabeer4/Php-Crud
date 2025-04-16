@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "poppins", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+label {
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  outline: none;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid lightgrey;
+}
+
+.edit-btn,
+.del-btn {
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+.edit-btn {
+  background-color: yellowgreen;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+/*  */
